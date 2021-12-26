@@ -1,0 +1,54 @@
+/* Start Menu.js File */
+.menu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+/* End Menu.js File */
+
+
+/* Start MenuItems.js File */
+.menuItems{
+    width: 25%;
+    height: auto;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.menuItems .image{
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menuItems .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+/* End MenuItems.js File */
+
+@media (max-width: 850px){
+    .menuItems{
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px){
+    .menuItems{
+        width: 60%;
+    }
+}
+
+@media (max-width: 420px){
+    .menuItems{
+        width: 90%;
+    }
+}

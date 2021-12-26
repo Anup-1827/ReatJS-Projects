@@ -1,0 +1,26 @@
+.aboutUs{
+    padding-bottom: 20px;
+}
+.aboutUs .aboutImage img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.aboutUs .aboutInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.aboutUs .aboutInfo h1, .aboutUs .aboutInfo p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.aboutUs .aboutInfo p{
+    margin-top: 20px;
+    width: 81%;
+    text-align: center;
+}

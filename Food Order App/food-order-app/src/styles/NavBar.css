@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+}
+a:hover{
+    color: red;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.NavBar .LeftSide .imgWidth{
+    width: 70px;
+}
+
+.NavBar .RightSide{
+    display: flex;
+    align-items: center;
+}
+.NavBar .RightSide a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px
+}
+
+.NavBar button{
+    display: none;
+}
+.hamBurger {
+    display: none;
+}
+.header .pages{
+    display: none;
+}
+
+
+@media (max-width: 500px){
+    .hamBurger{
+        display: block;
+        width : 25px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: white;
+        position: relative;
+        cursor: pointer;
+    }
+    .hamBurger::before, .hamBurger::after{
+        content: " ";
+        position: absolute;
+        width : 25px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: white;
+
+    }
+    .hamBurger::before{
+        top: -8px;
+    }
+    .hamBurger::after{
+        top: 8px;
+    }
+    .NavBar .RightSide {
+        display: none;
+    }
+
+    .NavBar button{
+        display: inline;
+    }
+    .header .pages{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .header .pages a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+    #close{
+        display: none;
+    }
+    #open{
+        display: block;
+    }
+}

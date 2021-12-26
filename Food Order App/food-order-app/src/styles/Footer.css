@@ -1,0 +1,31 @@
+.footer{
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .socialMedia{
+    color: white;
+    
+}
+
+.footer .socialMedia svg{
+    font-size: 50px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.footer p{
+    color: white;
+}
+
+@media (max-width: 600px){
+    .footer{
+        height: 20vh;
+    }
+    .footer .socialMedia svg{
+        font-size: 30px;
+    }
+}
