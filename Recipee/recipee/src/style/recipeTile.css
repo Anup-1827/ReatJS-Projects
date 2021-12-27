@@ -1,0 +1,14 @@
+.RecipeTile{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.RecipeTile h4{
+    color: 222222;
+    text-align: center;
+}
+.RecipeTile img{
+    width: fit-content;
+    object-fit: cover;
+
+}
