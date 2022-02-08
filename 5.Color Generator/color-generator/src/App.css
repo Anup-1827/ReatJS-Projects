@@ -1,0 +1,60 @@
+.App .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+.colorInput{
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+.colorInput:focus{
+   background-color: brown;
+   color: white;
+}
+
+.btn{
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(192, 73, 73)
+}
+
+/*Start of  Single Color Component*/
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    padding-top: 1.25rem;
+}
+.colorShades{
+    height: 150px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.white{
+    color: white;
+}
+/*End of  Single Color Component*/
